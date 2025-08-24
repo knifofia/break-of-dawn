@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base : '/break-of-dawn/',
   server: {
     host: '0.0.0.0',          // allow access from other devices
     port: 5173,
@@ -20,7 +21,7 @@ export default defineConfig({
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
-        start_url: '/',
+        start_url: '/break-of-dawn/',
         icons: [
           {
             src: '/image/BOD-192x192.png',
