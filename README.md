@@ -13,6 +13,8 @@ npm run dev -- --host
 ```
 and `chrome://inspect/#devices` to open ports
 
+Simple modif to run worflow
+
 # Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
