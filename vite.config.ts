@@ -4,12 +4,12 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
   base : '/break-of-dawn/',
-  server: {
-    host: '0.0.0.0',          // allow access from other devices
-    port: 5173,
-    strictPort: true,          // optional, fail if port is busy
-    allowedHosts: ['.ngrok-free.app']  // allow ngrok subdomains
-  },
+  // server: {
+  //   host: '0.0.0.0',          // allow access from other devices
+  //   port: 5173,
+  //   strictPort: true,          // optional, fail if port is busy
+  //   allowedHosts: ['.ngrok-free.app']  // allow ngrok subdomains
+  // },
   plugins: [
     svelte(),
     VitePWA({
@@ -24,26 +24,26 @@ export default defineConfig({
         start_url: '/break-of-dawn/',
         icons: [
           {
-            src: '/image/BOD-192x192.png',
+            src: '/break-of-dawn/image/BOD-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/image/BOD-512x512.png',
+            src: '/break-of-dawn/image/BOD-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           },
         ],
         screenshots: [
           {
-            src: '/image/BOD-512x512.png',
+            src: '/break-of-dawn/image/BOD-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             form_factor: 'wide',
             label: 'Application'
           },
           {
-            src: '/image/BOD-512x512.png',
+            src: '/break-of-dawn/image/BOD-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             label: 'Application'
