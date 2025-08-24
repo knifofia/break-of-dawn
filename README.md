@@ -11,9 +11,19 @@ For phone use
 ```sh
 npm run dev -- --host
 ```
+
 and `chrome://inspect/#devices` to open ports
 
 Simple modif to run worflow
+
+To host local from dist :
+
+```sh
+serve dist -l 5173
+```
+
+Github Pages URl : [link](https://knifofia.github.io/break-of-dawn/)
+
 
 # Svelte + TS + Vite
 
